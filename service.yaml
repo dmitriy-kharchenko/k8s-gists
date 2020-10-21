@@ -8,7 +8,6 @@ spec:
     app: nginx
   ports:
     - port: 80
-      targetPort: 80
       nodePort: 30007
 
 # https://minikube.sigs.k8s.io/docs/handbook/accessing/
